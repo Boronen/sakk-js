@@ -1,0 +1,2394 @@
+{
+    "d1c490f3": {
+        "white": "jozsi",
+        "black": "boronen",
+        "turn": "black",
+        "status": "ended",
+        "board": [
+            [
+                "r",
+                "n",
+                "b",
+                "",
+                "k",
+                "b",
+                "n",
+                "r"
+            ],
+            [
+                "p",
+                "p",
+                "p",
+                "p",
+                "",
+                "p",
+                "p",
+                "p"
+            ],
+            [
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                ""
+            ],
+            [
+                "",
+                "",
+                "",
+                "",
+                "p",
+                "",
+                "",
+                ""
+            ],
+            [
+                "",
+                "",
+                "",
+                "P",
+                "P",
+                "P",
+                "",
+                ""
+            ],
+            [
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                ""
+            ],
+            [
+                "P",
+                "P",
+                "P",
+                "",
+                "",
+                "",
+                "P",
+                "P"
+            ],
+            [
+                "R",
+                "N",
+                "B",
+                "Q",
+                "q",
+                "B",
+                "N",
+                "R"
+            ]
+        ],
+        "moves": [
+            {
+                "user": "jozsi",
+                "from": [
+                    6,
+                    3
+                ],
+                "to": [
+                    4,
+                    3
+                ],
+                "piece": "P",
+                "captured": ""
+            },
+            {
+                "user": "boronen",
+                "from": [
+                    1,
+                    4
+                ],
+                "to": [
+                    3,
+                    4
+                ],
+                "piece": "p",
+                "captured": ""
+            },
+            {
+                "user": "jozsi",
+                "from": [
+                    6,
+                    4
+                ],
+                "to": [
+                    4,
+                    4
+                ],
+                "piece": "P",
+                "captured": ""
+            },
+            {
+                "user": "boronen",
+                "from": [
+                    0,
+                    3
+                ],
+                "to": [
+                    4,
+                    7
+                ],
+                "piece": "q",
+                "captured": ""
+            },
+            {
+                "user": "jozsi",
+                "from": [
+                    6,
+                    5
+                ],
+                "to": [
+                    4,
+                    5
+                ],
+                "piece": "P",
+                "captured": ""
+            },
+            {
+                "user": "boronen",
+                "from": [
+                    4,
+                    7
+                ],
+                "to": [
+                    7,
+                    4
+                ],
+                "piece": "q",
+                "captured": "K"
+            }
+        ],
+        "winner": "boronen"
+    },
+    "215ec33e": {
+        "white": "jozsi",
+        "black": "boronen",
+        "turn": "white",
+        "status": "ended",
+        "board": [
+            [
+                "r",
+                "n",
+                "b",
+                "q",
+                "Q",
+                "b",
+                "n",
+                "r"
+            ],
+            [
+                "p",
+                "p",
+                "",
+                "",
+                "",
+                "",
+                "p",
+                "p"
+            ],
+            [
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                ""
+            ],
+            [
+                "",
+                "",
+                "p",
+                "p",
+                "p",
+                "p",
+                "",
+                ""
+            ],
+            [
+                "",
+                "",
+                "",
+                "P",
+                "P",
+                "P",
+                "",
+                ""
+            ],
+            [
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                ""
+            ],
+            [
+                "P",
+                "P",
+                "P",
+                "",
+                "",
+                "",
+                "P",
+                "P"
+            ],
+            [
+                "R",
+                "N",
+                "B",
+                "",
+                "K",
+                "B",
+                "N",
+                "R"
+            ]
+        ],
+        "moves": [
+            {
+                "user": "jozsi",
+                "from": [
+                    6,
+                    3
+                ],
+                "to": [
+                    4,
+                    3
+                ],
+                "piece": "P",
+                "captured": ""
+            },
+            {
+                "user": "boronen",
+                "from": [
+                    1,
+                    3
+                ],
+                "to": [
+                    3,
+                    3
+                ],
+                "piece": "p",
+                "captured": ""
+            },
+            {
+                "user": "jozsi",
+                "from": [
+                    6,
+                    4
+                ],
+                "to": [
+                    4,
+                    4
+                ],
+                "piece": "P",
+                "captured": ""
+            },
+            {
+                "user": "boronen",
+                "from": [
+                    1,
+                    4
+                ],
+                "to": [
+                    3,
+                    4
+                ],
+                "piece": "p",
+                "captured": ""
+            },
+            {
+                "user": "jozsi",
+                "from": [
+                    7,
+                    3
+                ],
+                "to": [
+                    3,
+                    7
+                ],
+                "piece": "Q",
+                "captured": ""
+            },
+            {
+                "user": "boronen",
+                "from": [
+                    1,
+                    2
+                ],
+                "to": [
+                    3,
+                    2
+                ],
+                "piece": "p",
+                "captured": ""
+            },
+            {
+                "user": "jozsi",
+                "from": [
+                    6,
+                    5
+                ],
+                "to": [
+                    4,
+                    5
+                ],
+                "piece": "P",
+                "captured": ""
+            },
+            {
+                "user": "boronen",
+                "from": [
+                    1,
+                    5
+                ],
+                "to": [
+                    3,
+                    5
+                ],
+                "piece": "p",
+                "captured": ""
+            },
+            {
+                "user": "jozsi",
+                "from": [
+                    3,
+                    7
+                ],
+                "to": [
+                    0,
+                    4
+                ],
+                "piece": "Q",
+                "captured": "k"
+            }
+        ],
+        "winner": "jozsi"
+    },
+    "508449a3": {
+        "white": "boronen",
+        "black": "jozsi",
+        "turn": "white",
+        "status": "ended",
+        "board": [
+            [
+                "r",
+                "n",
+                "b",
+                "q",
+                "Q",
+                "b",
+                "n",
+                "r"
+            ],
+            [
+                "p",
+                "p",
+                "p",
+                "",
+                "",
+                "",
+                "p",
+                "p"
+            ],
+            [
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                ""
+            ],
+            [
+                "",
+                "",
+                "",
+                "p",
+                "p",
+                "p",
+                "",
+                ""
+            ],
+            [
+                "",
+                "",
+                "",
+                "P",
+                "P",
+                "",
+                "",
+                ""
+            ],
+            [
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                ""
+            ],
+            [
+                "P",
+                "P",
+                "P",
+                "",
+                "",
+                "P",
+                "P",
+                "P"
+            ],
+            [
+                "R",
+                "N",
+                "B",
+                "",
+                "K",
+                "B",
+                "N",
+                "R"
+            ]
+        ],
+        "moves": [
+            {
+                "user": "boronen",
+                "from": [
+                    6,
+                    3
+                ],
+                "to": [
+                    4,
+                    3
+                ],
+                "piece": "P",
+                "captured": ""
+            },
+            {
+                "user": "jozsi",
+                "from": [
+                    1,
+                    3
+                ],
+                "to": [
+                    3,
+                    3
+                ],
+                "piece": "p",
+                "captured": ""
+            },
+            {
+                "user": "boronen",
+                "from": [
+                    6,
+                    4
+                ],
+                "to": [
+                    4,
+                    4
+                ],
+                "piece": "P",
+                "captured": ""
+            },
+            {
+                "user": "jozsi",
+                "from": [
+                    1,
+                    4
+                ],
+                "to": [
+                    3,
+                    4
+                ],
+                "piece": "p",
+                "captured": ""
+            },
+            {
+                "user": "boronen",
+                "from": [
+                    7,
+                    3
+                ],
+                "to": [
+                    3,
+                    7
+                ],
+                "piece": "Q",
+                "captured": ""
+            },
+            {
+                "user": "jozsi",
+                "from": [
+                    1,
+                    5
+                ],
+                "to": [
+                    3,
+                    5
+                ],
+                "piece": "p",
+                "captured": ""
+            },
+            {
+                "user": "boronen",
+                "from": [
+                    3,
+                    7
+                ],
+                "to": [
+                    0,
+                    4
+                ],
+                "piece": "Q",
+                "captured": "k"
+            }
+        ],
+        "winner": "boronen"
+    },
+    "4ea55639": {
+        "white": "jozsi",
+        "black": "boronen",
+        "turn": "white",
+        "status": "ended",
+        "board": [
+            [
+                "r",
+                "n",
+                "b",
+                "q",
+                "Q",
+                "b",
+                "n",
+                "r"
+            ],
+            [
+                "p",
+                "p",
+                "p",
+                "",
+                "",
+                "",
+                "p",
+                "p"
+            ],
+            [
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                ""
+            ],
+            [
+                "",
+                "",
+                "",
+                "p",
+                "p",
+                "p",
+                "",
+                ""
+            ],
+            [
+                "",
+                "",
+                "P",
+                "P",
+                "",
+                "",
+                "",
+                ""
+            ],
+            [
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                ""
+            ],
+            [
+                "P",
+                "P",
+                "",
+                "",
+                "P",
+                "P",
+                "P",
+                "P"
+            ],
+            [
+                "R",
+                "N",
+                "B",
+                "",
+                "K",
+                "B",
+                "N",
+                "R"
+            ]
+        ],
+        "moves": [
+            {
+                "user": "jozsi",
+                "from": [
+                    6,
+                    2
+                ],
+                "to": [
+                    4,
+                    2
+                ],
+                "piece": "P",
+                "captured": ""
+            },
+            {
+                "user": "boronen",
+                "from": [
+                    1,
+                    4
+                ],
+                "to": [
+                    3,
+                    4
+                ],
+                "piece": "p",
+                "captured": ""
+            },
+            {
+                "user": "jozsi",
+                "from": [
+                    6,
+                    3
+                ],
+                "to": [
+                    4,
+                    3
+                ],
+                "piece": "P",
+                "captured": ""
+            },
+            {
+                "user": "boronen",
+                "from": [
+                    1,
+                    5
+                ],
+                "to": [
+                    3,
+                    5
+                ],
+                "piece": "p",
+                "captured": ""
+            },
+            {
+                "user": "jozsi",
+                "from": [
+                    7,
+                    3
+                ],
+                "to": [
+                    4,
+                    0
+                ],
+                "piece": "Q",
+                "captured": ""
+            },
+            {
+                "user": "boronen",
+                "from": [
+                    1,
+                    3
+                ],
+                "to": [
+                    3,
+                    3
+                ],
+                "piece": "p",
+                "captured": ""
+            },
+            {
+                "user": "jozsi",
+                "from": [
+                    4,
+                    0
+                ],
+                "to": [
+                    0,
+                    4
+                ],
+                "piece": "Q",
+                "captured": "k"
+            }
+        ],
+        "winner": "jozsi"
+    },
+    "b45fe298": {
+        "white": "jozsi",
+        "black": "boronen",
+        "turn": "black",
+        "status": "ended",
+        "board": [
+            [
+                "r",
+                "n",
+                "b",
+                "",
+                "k",
+                "b",
+                "n",
+                "r"
+            ],
+            [
+                "p",
+                "p",
+                "p",
+                "",
+                "",
+                "p",
+                "p",
+                "p"
+            ],
+            [
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                ""
+            ],
+            [
+                "",
+                "",
+                "",
+                "p",
+                "p",
+                "",
+                "",
+                ""
+            ],
+            [
+                "",
+                "P",
+                "P",
+                "P",
+                "",
+                "P",
+                "",
+                ""
+            ],
+            [
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                ""
+            ],
+            [
+                "P",
+                "",
+                "",
+                "",
+                "P",
+                "",
+                "P",
+                "P"
+            ],
+            [
+                "R",
+                "N",
+                "B",
+                "Q",
+                "q",
+                "B",
+                "N",
+                "R"
+            ]
+        ],
+        "moves": [
+            {
+                "user": "jozsi",
+                "from": [
+                    6,
+                    3
+                ],
+                "to": [
+                    4,
+                    3
+                ],
+                "piece": "P",
+                "captured": ""
+            },
+            {
+                "user": "boronen",
+                "from": [
+                    1,
+                    3
+                ],
+                "to": [
+                    3,
+                    3
+                ],
+                "piece": "p",
+                "captured": ""
+            },
+            {
+                "user": "jozsi",
+                "from": [
+                    6,
+                    2
+                ],
+                "to": [
+                    4,
+                    2
+                ],
+                "piece": "P",
+                "captured": ""
+            },
+            {
+                "user": "boronen",
+                "from": [
+                    1,
+                    4
+                ],
+                "to": [
+                    3,
+                    4
+                ],
+                "piece": "p",
+                "captured": ""
+            },
+            {
+                "user": "jozsi",
+                "from": [
+                    6,
+                    1
+                ],
+                "to": [
+                    4,
+                    1
+                ],
+                "piece": "P",
+                "captured": ""
+            },
+            {
+                "user": "boronen",
+                "from": [
+                    0,
+                    3
+                ],
+                "to": [
+                    4,
+                    7
+                ],
+                "piece": "q",
+                "captured": ""
+            },
+            {
+                "user": "jozsi",
+                "from": [
+                    6,
+                    5
+                ],
+                "to": [
+                    4,
+                    5
+                ],
+                "piece": "P",
+                "captured": ""
+            },
+            {
+                "user": "boronen",
+                "from": [
+                    4,
+                    7
+                ],
+                "to": [
+                    7,
+                    4
+                ],
+                "piece": "q",
+                "captured": "K"
+            }
+        ],
+        "winner": "boronen"
+    },
+    "01d8daf8": {
+        "white": "jozsi",
+        "black": "boronen",
+        "turn": "white",
+        "status": "ended",
+        "board": [
+            [
+                "r",
+                "n",
+                "b",
+                "q",
+                "Q",
+                "b",
+                "n",
+                "r"
+            ],
+            [
+                "p",
+                "p",
+                "p",
+                "",
+                "",
+                "",
+                "p",
+                "p"
+            ],
+            [
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                ""
+            ],
+            [
+                "",
+                "",
+                "",
+                "p",
+                "p",
+                "p",
+                "",
+                ""
+            ],
+            [
+                "",
+                "",
+                "",
+                "P",
+                "P",
+                "",
+                "",
+                ""
+            ],
+            [
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                ""
+            ],
+            [
+                "P",
+                "P",
+                "P",
+                "",
+                "",
+                "P",
+                "P",
+                "P"
+            ],
+            [
+                "R",
+                "N",
+                "B",
+                "",
+                "K",
+                "B",
+                "N",
+                "R"
+            ]
+        ],
+        "moves": [
+            {
+                "user": "jozsi",
+                "from": [
+                    6,
+                    3
+                ],
+                "to": [
+                    4,
+                    3
+                ],
+                "piece": "P",
+                "captured": ""
+            },
+            {
+                "user": "boronen",
+                "from": [
+                    1,
+                    3
+                ],
+                "to": [
+                    3,
+                    3
+                ],
+                "piece": "p",
+                "captured": ""
+            },
+            {
+                "user": "jozsi",
+                "from": [
+                    6,
+                    4
+                ],
+                "to": [
+                    4,
+                    4
+                ],
+                "piece": "P",
+                "captured": ""
+            },
+            {
+                "user": "boronen",
+                "from": [
+                    1,
+                    4
+                ],
+                "to": [
+                    3,
+                    4
+                ],
+                "piece": "p",
+                "captured": ""
+            },
+            {
+                "user": "jozsi",
+                "from": [
+                    7,
+                    3
+                ],
+                "to": [
+                    3,
+                    7
+                ],
+                "piece": "Q",
+                "captured": ""
+            },
+            {
+                "user": "boronen",
+                "from": [
+                    1,
+                    5
+                ],
+                "to": [
+                    3,
+                    5
+                ],
+                "piece": "p",
+                "captured": ""
+            },
+            {
+                "user": "jozsi",
+                "from": [
+                    3,
+                    7
+                ],
+                "to": [
+                    0,
+                    4
+                ],
+                "piece": "Q",
+                "captured": "k"
+            }
+        ],
+        "winner": "jozsi"
+    },
+    "aa50da5d": {
+        "white": "husshuss",
+        "black": "boronen",
+        "turn": "black",
+        "status": "ended",
+        "board": [
+            [
+                "r",
+                "n",
+                "b",
+                "",
+                "k",
+                "b",
+                "n",
+                "r"
+            ],
+            [
+                "p",
+                "p",
+                "p",
+                "",
+                "",
+                "p",
+                "p",
+                "p"
+            ],
+            [
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                ""
+            ],
+            [
+                "",
+                "",
+                "",
+                "p",
+                "P",
+                "",
+                "",
+                ""
+            ],
+            [
+                "",
+                "",
+                "",
+                "P",
+                "",
+                "",
+                "P",
+                ""
+            ],
+            [
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                ""
+            ],
+            [
+                "P",
+                "P",
+                "P",
+                "",
+                "P",
+                "",
+                "",
+                "P"
+            ],
+            [
+                "R",
+                "N",
+                "B",
+                "Q",
+                "q",
+                "B",
+                "N",
+                "R"
+            ]
+        ],
+        "moves": [
+            {
+                "user": "husshuss",
+                "from": [
+                    6,
+                    5
+                ],
+                "to": [
+                    4,
+                    5
+                ],
+                "piece": "P",
+                "captured": ""
+            },
+            {
+                "user": "boronen",
+                "from": [
+                    1,
+                    3
+                ],
+                "to": [
+                    3,
+                    3
+                ],
+                "piece": "p",
+                "captured": ""
+            },
+            {
+                "user": "husshuss",
+                "from": [
+                    6,
+                    6
+                ],
+                "to": [
+                    4,
+                    6
+                ],
+                "piece": "P",
+                "captured": ""
+            },
+            {
+                "user": "boronen",
+                "from": [
+                    1,
+                    4
+                ],
+                "to": [
+                    3,
+                    4
+                ],
+                "piece": "p",
+                "captured": ""
+            },
+            {
+                "user": "husshuss",
+                "from": [
+                    4,
+                    5
+                ],
+                "to": [
+                    3,
+                    4
+                ],
+                "piece": "P",
+                "captured": "p"
+            },
+            {
+                "user": "boronen",
+                "from": [
+                    0,
+                    3
+                ],
+                "to": [
+                    4,
+                    7
+                ],
+                "piece": "q",
+                "captured": ""
+            },
+            {
+                "user": "husshuss",
+                "from": [
+                    6,
+                    3
+                ],
+                "to": [
+                    4,
+                    3
+                ],
+                "piece": "P",
+                "captured": ""
+            },
+            {
+                "user": "boronen",
+                "from": [
+                    4,
+                    7
+                ],
+                "to": [
+                    7,
+                    4
+                ],
+                "piece": "q",
+                "captured": "K"
+            }
+        ],
+        "winner": "boronen"
+    },
+    "0b2c940f": {
+        "white": "boronen",
+        "black": "jozsi",
+        "turn": "white",
+        "status": "ended",
+        "board": [
+            [
+                "r",
+                "n",
+                "b",
+                "q",
+                "Q",
+                "b",
+                "n",
+                "r"
+            ],
+            [
+                "p",
+                "p",
+                "p",
+                "",
+                "",
+                "",
+                "",
+                "p"
+            ],
+            [
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                ""
+            ],
+            [
+                "",
+                "",
+                "",
+                "p",
+                "p",
+                "p",
+                "p",
+                ""
+            ],
+            [
+                "",
+                "P",
+                "P",
+                "P",
+                "",
+                "",
+                "",
+                ""
+            ],
+            [
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                ""
+            ],
+            [
+                "P",
+                "",
+                "",
+                "",
+                "P",
+                "P",
+                "P",
+                "P"
+            ],
+            [
+                "R",
+                "N",
+                "B",
+                "",
+                "K",
+                "B",
+                "N",
+                "R"
+            ]
+        ],
+        "moves": [
+            {
+                "user": "boronen",
+                "from": [
+                    6,
+                    3
+                ],
+                "to": [
+                    4,
+                    3
+                ],
+                "piece": "P",
+                "captured": ""
+            },
+            {
+                "user": "jozsi",
+                "from": [
+                    1,
+                    5
+                ],
+                "to": [
+                    3,
+                    5
+                ],
+                "piece": "p",
+                "captured": ""
+            },
+            {
+                "user": "boronen",
+                "from": [
+                    6,
+                    2
+                ],
+                "to": [
+                    4,
+                    2
+                ],
+                "piece": "P",
+                "captured": ""
+            },
+            {
+                "user": "jozsi",
+                "from": [
+                    1,
+                    6
+                ],
+                "to": [
+                    3,
+                    6
+                ],
+                "piece": "p",
+                "captured": ""
+            },
+            {
+                "user": "boronen",
+                "from": [
+                    6,
+                    1
+                ],
+                "to": [
+                    4,
+                    1
+                ],
+                "piece": "P",
+                "captured": ""
+            },
+            {
+                "user": "jozsi",
+                "from": [
+                    1,
+                    4
+                ],
+                "to": [
+                    3,
+                    4
+                ],
+                "piece": "p",
+                "captured": ""
+            },
+            {
+                "user": "boronen",
+                "from": [
+                    7,
+                    3
+                ],
+                "to": [
+                    4,
+                    0
+                ],
+                "piece": "Q",
+                "captured": ""
+            },
+            {
+                "user": "jozsi",
+                "from": [
+                    1,
+                    3
+                ],
+                "to": [
+                    3,
+                    3
+                ],
+                "piece": "p",
+                "captured": ""
+            },
+            {
+                "user": "boronen",
+                "from": [
+                    4,
+                    0
+                ],
+                "to": [
+                    0,
+                    4
+                ],
+                "piece": "Q",
+                "captured": "k"
+            }
+        ],
+        "winner": "boronen"
+    },
+    "d0bac664": {
+        "white": "jozsi",
+        "black": "boronen",
+        "turn": "white",
+        "status": "ended",
+        "board": [
+            [
+                "r",
+                "n",
+                "b",
+                "q",
+                "Q",
+                "b",
+                "n",
+                "r"
+            ],
+            [
+                "p",
+                "",
+                "p",
+                "",
+                "p",
+                "",
+                "p",
+                "p"
+            ],
+            [
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                ""
+            ],
+            [
+                "",
+                "p",
+                "",
+                "p",
+                "",
+                "p",
+                "",
+                ""
+            ],
+            [
+                "",
+                "",
+                "",
+                "P",
+                "P",
+                "",
+                "",
+                ""
+            ],
+            [
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                ""
+            ],
+            [
+                "P",
+                "P",
+                "P",
+                "",
+                "",
+                "P",
+                "P",
+                "P"
+            ],
+            [
+                "R",
+                "N",
+                "B",
+                "",
+                "K",
+                "B",
+                "N",
+                "R"
+            ]
+        ],
+        "moves": [
+            {
+                "user": "jozsi",
+                "from": [
+                    6,
+                    3
+                ],
+                "to": [
+                    4,
+                    3
+                ],
+                "piece": "P",
+                "captured": ""
+            },
+            {
+                "user": "boronen",
+                "from": [
+                    1,
+                    3
+                ],
+                "to": [
+                    3,
+                    3
+                ],
+                "piece": "p",
+                "captured": ""
+            },
+            {
+                "user": "jozsi",
+                "from": [
+                    6,
+                    4
+                ],
+                "to": [
+                    4,
+                    4
+                ],
+                "piece": "P",
+                "captured": ""
+            },
+            {
+                "user": "boronen",
+                "from": [
+                    1,
+                    5
+                ],
+                "to": [
+                    3,
+                    5
+                ],
+                "piece": "p",
+                "captured": ""
+            },
+            {
+                "user": "jozsi",
+                "from": [
+                    7,
+                    3
+                ],
+                "to": [
+                    3,
+                    7
+                ],
+                "piece": "Q",
+                "captured": ""
+            },
+            {
+                "user": "boronen",
+                "from": [
+                    1,
+                    1
+                ],
+                "to": [
+                    3,
+                    1
+                ],
+                "piece": "p",
+                "captured": ""
+            },
+            {
+                "user": "jozsi",
+                "from": [
+                    3,
+                    7
+                ],
+                "to": [
+                    0,
+                    4
+                ],
+                "piece": "Q",
+                "captured": "k"
+            }
+        ],
+        "winner": "jozsi"
+    },
+    "b203cad7": {
+        "white": "jozsi",
+        "black": "boronen",
+        "turn": "black",
+        "status": "ended",
+        "board": [
+            [
+                "r",
+                "n",
+                "b",
+                "",
+                "k",
+                "b",
+                "n",
+                "r"
+            ],
+            [
+                "p",
+                "p",
+                "p",
+                "p",
+                "",
+                "p",
+                "p",
+                "p"
+            ],
+            [
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                ""
+            ],
+            [
+                "",
+                "",
+                "",
+                "",
+                "p",
+                "",
+                "",
+                ""
+            ],
+            [
+                "",
+                "",
+                "",
+                "P",
+                "",
+                "",
+                "",
+                ""
+            ],
+            [
+                "",
+                "",
+                "",
+                "",
+                "",
+                "P",
+                "",
+                ""
+            ],
+            [
+                "P",
+                "P",
+                "P",
+                "q",
+                "P",
+                "",
+                "P",
+                "P"
+            ],
+            [
+                "R",
+                "N",
+                "B",
+                "Q",
+                "",
+                "B",
+                "N",
+                "R"
+            ]
+        ],
+        "moves": [
+            {
+                "user": "jozsi",
+                "from": [
+                    6,
+                    3
+                ],
+                "to": [
+                    4,
+                    3
+                ],
+                "piece": "P",
+                "captured": ""
+            },
+            {
+                "user": "boronen",
+                "from": [
+                    1,
+                    4
+                ],
+                "to": [
+                    3,
+                    4
+                ],
+                "piece": "p",
+                "captured": ""
+            },
+            {
+                "user": "jozsi",
+                "from": [
+                    7,
+                    4
+                ],
+                "to": [
+                    6,
+                    3
+                ],
+                "piece": "K",
+                "captured": ""
+            },
+            {
+                "user": "boronen",
+                "from": [
+                    0,
+                    3
+                ],
+                "to": [
+                    3,
+                    6
+                ],
+                "piece": "q",
+                "captured": ""
+            },
+            {
+                "user": "jozsi",
+                "from": [
+                    6,
+                    5
+                ],
+                "to": [
+                    5,
+                    5
+                ],
+                "piece": "P",
+                "captured": ""
+            },
+            {
+                "user": "boronen",
+                "from": [
+                    3,
+                    6
+                ],
+                "to": [
+                    6,
+                    3
+                ],
+                "piece": "q",
+                "captured": "K"
+            }
+        ],
+        "winner": "boronen"
+    },
+    "456e0b1d": {
+        "white": "boronen",
+        "black": "jozsi",
+        "turn": "black",
+        "status": "ended",
+        "board": [
+            [
+                "r",
+                "n",
+                "b",
+                "",
+                "k",
+                "b",
+                "n",
+                "r"
+            ],
+            [
+                "p",
+                "p",
+                "p",
+                "p",
+                "",
+                "p",
+                "p",
+                "p"
+            ],
+            [
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                ""
+            ],
+            [
+                "",
+                "",
+                "",
+                "",
+                "p",
+                "",
+                "",
+                ""
+            ],
+            [
+                "",
+                "",
+                "",
+                "",
+                "",
+                "P",
+                "",
+                ""
+            ],
+            [
+                "",
+                "",
+                "P",
+                "",
+                "P",
+                "",
+                "",
+                "P"
+            ],
+            [
+                "P",
+                "P",
+                "",
+                "",
+                "",
+                "",
+                "",
+                ""
+            ],
+            [
+                "R",
+                "N",
+                "B",
+                "Q",
+                "q",
+                "B",
+                "N",
+                "R"
+            ]
+        ],
+        "moves": [
+            {
+                "user": "boronen",
+                "from": [
+                    6,
+                    3
+                ],
+                "to": [
+                    4,
+                    3
+                ],
+                "piece": "P",
+                "captured": ""
+            },
+            {
+                "user": "jozsi",
+                "from": [
+                    1,
+                    4
+                ],
+                "to": [
+                    3,
+                    4
+                ],
+                "piece": "p",
+                "captured": ""
+            },
+            {
+                "user": "boronen",
+                "from": [
+                    6,
+                    2
+                ],
+                "to": [
+                    5,
+                    2
+                ],
+                "piece": "P",
+                "captured": ""
+            },
+            {
+                "user": "jozsi",
+                "from": [
+                    0,
+                    3
+                ],
+                "to": [
+                    4,
+                    7
+                ],
+                "piece": "q",
+                "captured": ""
+            },
+            {
+                "user": "boronen",
+                "from": [
+                    6,
+                    4
+                ],
+                "to": [
+                    5,
+                    4
+                ],
+                "piece": "P",
+                "captured": ""
+            },
+            {
+                "user": "jozsi",
+                "from": [
+                    4,
+                    7
+                ],
+                "to": [
+                    4,
+                    3
+                ],
+                "piece": "q",
+                "captured": "P"
+            },
+            {
+                "user": "boronen",
+                "from": [
+                    6,
+                    6
+                ],
+                "to": [
+                    4,
+                    6
+                ],
+                "piece": "P",
+                "captured": ""
+            },
+            {
+                "user": "jozsi",
+                "from": [
+                    4,
+                    3
+                ],
+                "to": [
+                    4,
+                    6
+                ],
+                "piece": "q",
+                "captured": "P"
+            },
+            {
+                "user": "boronen",
+                "from": [
+                    6,
+                    5
+                ],
+                "to": [
+                    4,
+                    5
+                ],
+                "piece": "P",
+                "captured": ""
+            },
+            {
+                "user": "jozsi",
+                "from": [
+                    4,
+                    6
+                ],
+                "to": [
+                    4,
+                    7
+                ],
+                "piece": "q",
+                "captured": ""
+            },
+            {
+                "user": "boronen",
+                "from": [
+                    6,
+                    7
+                ],
+                "to": [
+                    5,
+                    7
+                ],
+                "piece": "P",
+                "captured": ""
+            },
+            {
+                "user": "jozsi",
+                "from": [
+                    4,
+                    7
+                ],
+                "to": [
+                    7,
+                    4
+                ],
+                "piece": "q",
+                "captured": "K"
+            }
+        ],
+        "winner": "jozsi"
+    },
+    "6d920b46": {
+        "white": "boronen",
+        "black": "jozsi",
+        "turn": "black",
+        "status": "ended",
+        "board": [
+            [
+                "r",
+                "n",
+                "b",
+                "",
+                "k",
+                "b",
+                "n",
+                "r"
+            ],
+            [
+                "p",
+                "p",
+                "p",
+                "p",
+                "",
+                "",
+                "",
+                "p"
+            ],
+            [
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                ""
+            ],
+            [
+                "",
+                "P",
+                "P",
+                "",
+                "p",
+                "p",
+                "",
+                ""
+            ],
+            [
+                "",
+                "",
+                "",
+                "P",
+                "P",
+                "",
+                "",
+                ""
+            ],
+            [
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "p",
+                ""
+            ],
+            [
+                "P",
+                "",
+                "",
+                "q",
+                "",
+                "P",
+                "P",
+                "P"
+            ],
+            [
+                "R",
+                "N",
+                "B",
+                "Q",
+                "",
+                "B",
+                "N",
+                "R"
+            ]
+        ],
+        "moves": [
+            {
+                "user": "boronen",
+                "from": [
+                    6,
+                    2
+                ],
+                "to": [
+                    4,
+                    2
+                ],
+                "piece": "P",
+                "captured": ""
+            },
+            {
+                "user": "jozsi",
+                "from": [
+                    1,
+                    5
+                ],
+                "to": [
+                    3,
+                    5
+                ],
+                "piece": "p",
+                "captured": ""
+            },
+            {
+                "user": "boronen",
+                "from": [
+                    6,
+                    3
+                ],
+                "to": [
+                    4,
+                    3
+                ],
+                "piece": "P",
+                "captured": ""
+            },
+            {
+                "user": "jozsi",
+                "from": [
+                    1,
+                    4
+                ],
+                "to": [
+                    3,
+                    4
+                ],
+                "piece": "p",
+                "captured": ""
+            },
+            {
+                "user": "boronen",
+                "from": [
+                    6,
+                    1
+                ],
+                "to": [
+                    4,
+                    1
+                ],
+                "piece": "P",
+                "captured": ""
+            },
+            {
+                "user": "jozsi",
+                "from": [
+                    1,
+                    6
+                ],
+                "to": [
+                    3,
+                    6
+                ],
+                "piece": "p",
+                "captured": ""
+            },
+            {
+                "user": "boronen",
+                "from": [
+                    6,
+                    4
+                ],
+                "to": [
+                    4,
+                    4
+                ],
+                "piece": "P",
+                "captured": ""
+            },
+            {
+                "user": "jozsi",
+                "from": [
+                    3,
+                    6
+                ],
+                "to": [
+                    4,
+                    6
+                ],
+                "piece": "p",
+                "captured": ""
+            },
+            {
+                "user": "boronen",
+                "from": [
+                    4,
+                    1
+                ],
+                "to": [
+                    3,
+                    1
+                ],
+                "piece": "P",
+                "captured": ""
+            },
+            {
+                "user": "jozsi",
+                "from": [
+                    4,
+                    6
+                ],
+                "to": [
+                    5,
+                    6
+                ],
+                "piece": "p",
+                "captured": ""
+            },
+            {
+                "user": "boronen",
+                "from": [
+                    4,
+                    2
+                ],
+                "to": [
+                    3,
+                    2
+                ],
+                "piece": "P",
+                "captured": ""
+            },
+            {
+                "user": "jozsi",
+                "from": [
+                    0,
+                    3
+                ],
+                "to": [
+                    3,
+                    6
+                ],
+                "piece": "q",
+                "captured": ""
+            },
+            {
+                "user": "boronen",
+                "from": [
+                    7,
+                    4
+                ],
+                "to": [
+                    6,
+                    3
+                ],
+                "piece": "K",
+                "captured": ""
+            },
+            {
+                "user": "jozsi",
+                "from": [
+                    3,
+                    6
+                ],
+                "to": [
+                    6,
+                    3
+                ],
+                "piece": "q",
+                "captured": "K"
+            }
+        ],
+        "winner": "jozsi"
+    }
+}

@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="hu">
+<head>
+    <meta charset="UTF-8">
+    <title>Matchmaking</title>
+    <link rel="stylesheet" href="matchmaking.css">
+</head>
+<body id="pageBackground">
+
+    <span class="logout"><button id="logoutBtn">Kijelentkezés</button></span>
+
+    <nav class="main-nav">
+        <ul>
+            <li class="left"><a href="leaderboard.html">Leaderboard</a></li>
+            <li class="center"><a href="matchmaking.html" class="nav-center">Matchmaking</a></li>
+            <li class="right"><a href="profile.html">Profile</a></li>
+        </ul>
+    </nav>
+
+    <div class="match-wrapper">
+
+        <header class="match-header">
+            <h1>Játék keresése</h1>
+            <button id="keresJatekGomb" class="search-btn">Játék keresése</button>
+            <div id="matchmakingUzenet" class="status-text"></div>
+        </header>
+        <section class="minigame-section">
+            <canvas id="flappyCanvas" width="300" height="400"></canvas>
+            <p class="minigame-info">Mini‑játék, amíg vársz a meccsre</p>
+            <p class="minigame-info"><a href="https://www.geeksforgeeks.org/javascript/flappy-bird-game-in-javascript/" target="_blank">A játék készítője: Shubham Aggarwal</a></p>
+
+        </section>
+
+    </div>
+
+    <div id="matchPopup" class="popup">
+        <div class="popupBox popup-animate">
+            <h3>Találtam egy meccset!</h3>
+            <button id="joinMatchBtn">Csatlakozás</button>
+        </div>
+    </div>
+
+    <script src="script/matchmaking.js"></script>
+    <script src="script/auth.js"></script>
+    <script src="script/flappy.js"></script>
+
+    <script>
+        document.getElementById("logoutBtn").onclick = () => {
+            fetch("../backend/logout.php")
+                .then(r => r.json())
+                .then(() => window.location.href = "login.html");
+        };
+    </script>
+
+</body>
+</html>

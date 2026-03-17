@@ -1,0 +1,45 @@
+{
+    "first_win.gif": {
+        "name": "Első győzelem",
+        "rarity": "common",
+        "description": "Megnyerted az első meccsedet."
+    },
+    "win_10.png": {
+        "name": "10 győzelem",
+        "rarity": "rare",
+        "description": "Elértél 10 győzelmet."
+    },
+    "lose_10.png": {
+        "name": "10 vereség",
+        "rarity": "common",
+        "description": "Elszenvedtél 10 vereséget."
+    },
+    "elo_100.png": {
+        "name": "+100 ELO",
+        "rarity": "epic",
+        "description": "Átlépted az 1300 ELO-t."
+    },
+    "beta_user.png": {
+        "name": "Beta felhasználó",
+        "rarity": "legendary",
+        "description": "A játék korai verziójában regisztráltál."
+    },
+    "top100.png": {
+        "name": "Első 100 játékos",
+        "rarity": "legendary",
+        "description": "Az első 100 regisztrált játékos egyike vagy."
+    },
+    "huh.gif": {
+        "name": "huh",
+        "rarity": "legendary",
+        "description": "A híres 'HUH?' macska badge. Csak speciális eseményeken érhető el, kizárólag admin adhatja."
+    },
+    "secret_election_badge.gif": {
+    "name": "A Választott",
+    "rarity": "ultra-rare",
+    "description": "Egy titkos rejtvény megoldásával szerezted meg. Csak kevesek tudják, hogy létezik.",
+    "admin_only": false,
+    "hidden": true
+}
+
+}

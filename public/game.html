@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="hu">
+<head>
+    <meta charset="UTF-8">
+    <title>Játék</title>
+    <link rel="stylesheet" href="game.css">
+</head>
+<body>
+
+    <span class="logout"><button id="logoutBtn">Kijelentkezés</button></span>
+
+    <nav class="main-nav">
+        <ul>
+            <li class="left"><a href="leaderboard.html">Leaderboard</a></li>
+            <li class="center"><a href="matchmaking.html" class="nav-center">Matchmaking</a></li>
+            <li class="right"><a href="profile.html">Profile</a></li>
+        </ul>
+    </nav>
+
+    <div class="game-wrapper">
+
+        <div class="game-header">
+            <h1>Sakkjáték</h1>
+            <div id="jatekosInfo" class="player-info">Te: betöltés...</div>
+            <div id="info" class="status-info">Soron: betöltés...</div>
+            <div id="statusInfo" class="status-info">Státusz: betöltés...</div>
+        </div>
+
+        <section class="board-section">
+            <div id="tabla" class="chessboard"></div>
+        </section>
+
+    </div>
+
+    <script src="script/game.js"></script>
+    <script src="script/auth.js"></script>
+
+    <script>
+        document.getElementById("logoutBtn").onclick = () => {
+            fetch("../backend/logout.php")
+                .then(r => r.json())
+                .then(() => window.location.href = "login.html");
+        };
+    </script>
+
+</body>
+</html>

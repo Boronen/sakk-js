@@ -1,0 +1,85 @@
+{
+    "jozsi": {
+        "password": "$2y$10$V42MzyS5NnghILxN3RqxRuNVOImopT5lbmn7beEcByYHZHr2aECEK",
+        "elo": 1220,
+        "win": 4,
+        "lose": 2,
+        "pfp": "jozsi.png",
+        "header_bg": "jozsi_header.png",
+        "background_style": "neon.gif",
+        "badges": [
+            "top100.png",
+            "beta_user.png",
+            "first_win.gif"
+        ],
+        "matches": [
+            "01d8daf8",
+            "0b2c940f",
+            "d0bac664",
+            "b203cad7",
+            "456e0b1d",
+            "6d920b46"
+        ],
+        "registered_at": "2026-03-16"
+    },
+    "boronen": {
+        "password": "$2y$10$gIsAIVomG\/G.qHM9Y5h0Vuuus75o3bGkpaJ\/VTjU2c\/aLgyBP0FYq",
+        "elo": 1190,
+        "win": 10,
+        "lose": 4,
+        "pfp": "boronen.png",
+        "header_bg": "boronen_header.png",
+        "background_style": "fire.gif",
+        "badges": [
+            "top100.png",
+            "beta_user.png",
+            "first_win.gif",
+            "charles-leclerc-bruh.gif",
+            "huh.gif",
+            "secret_election_badge.gif"
+        ],
+        "matches": [
+            "01d8daf8",
+            "aa50da5d",
+            "0b2c940f",
+            "d0bac664",
+            "b203cad7",
+            "456e0b1d",
+            "6d920b46"
+        ],
+        "registered_at": "2026-03-16"
+    },
+    "husshuss": {
+        "password": "$2y$10$dsfcJ.dGAVEJrH6rQJFE2e5CT2BUT0K6FJL\/pXK6ghmb0Zj7MX0PC",
+        "elo": 1190,
+        "win": 0,
+        "lose": 1,
+        "pfp": "husshuss.png",
+        "header_bg": "husshuss_header.png",
+        "background_style": "default",
+        "badges": [
+            "top100.png",
+            "beta_user.png",
+            "charles-leclerc-bruh.gif"
+        ],
+        "matches": [
+            "aa50da5d"
+        ],
+        "registered_at": "2026-03-16"
+    },
+    "boro2teszt": {
+        "password": "$2y$10$kkg4lb6IhlI2vk6mvK2ce.AbGgZZ\/qC\/CPoEqGsRADpCDWZJjCOqK",
+        "elo": 1200,
+        "win": 0,
+        "lose": 0,
+        "pfp": "default_pfp.png",
+        "header_bg": null,
+        "background_style": "default",
+        "badges": [
+            "top100.png",
+            "beta_user.png"
+        ],
+        "matches": [],
+        "registered_at": "2026-03-17"
+    }
+}

@@ -1,0 +1,80 @@
+<!doctype html>
+<html lang="hu">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Profil</title>
+    <link rel="stylesheet" href="profile.css" />
+  </head>
+  <body id="pageBackground">
+    <span class="logout"><button id="logoutBtn">Kijelentkezés</button></span>
+    <nav class="main-nav">
+      <ul>
+        <li class="left"><a href="leaderboard.html">Leaderboard</a></li>
+        <li class="center">
+          <a href="matchmaking.html" class="nav-center">Game</a>
+        </li>
+        <li class="right"><a href="profile.html">Profile</a></li>
+      </ul>
+    </nav>
+
+    <div class="profile-wrapper">
+      <header class="profile-header" id="headerBackground">
+        <div class="pfp-wrapper">
+          <img id="profilKep" src="assets/pfp/default_pfp.png" class="pfp" />
+          <input type="file" id="pfpUpload" accept="image/*" />
+        </div>
+
+        <div class="header-info">
+          <h1 id="profilNev">Profil név</h1>
+        </div>
+
+        <div class="header-stats">
+          <div id="statAdatok">Betöltés...</div>
+        </div>
+
+        <div class="badge-row" id="badgeLista">
+          <img src="assets/badges/kiscica.png" class="badge" />
+          <img src="assets/badges/placeholder.png" class="badge" />
+          <img src="assets/badges/placeholder.png" class="badge" />
+        </div>
+
+        <div class="header-bg-upload">
+          <input type="file" id="headerBgUpload" accept="image/*" />
+        </div>
+      </header>
+
+      <section class="match-history">
+        <h2>Legutóbbi meccsek</h2>
+        <table id="meccsTabla">
+          <thead>
+            <tr>
+              <th>Game ID</th>
+              <th>Fehér</th>
+              <th>Fekete</th>
+              <th>Győztes</th>
+            </tr>
+          </thead>
+          <tbody></tbody>
+        </table>
+      </section>
+
+      <section class="background-effects">
+        <div class="bg-options">
+          <button class="bg-btn" data-bg="default">Alap</button>
+          <button class="bg-btn" data-bg="neon.gif">Neon</button>
+          <button class="bg-btn" data-bg="fire.gif">Fire</button>
+          <button class="bg-btn" data-bg="placeholder.gif">Placeholder</button>
+        </div>
+      </section>
+    </div>
+
+    <script src="script/profile.js"></script>
+    <script>
+      document.getElementById("logoutBtn").onclick = () => {
+        fetch("../backend/logout.php")
+          .then((r) => r.json())
+          .then(() => (window.location.href = "login.html"));
+      };
+    </script>
+  </body>
+</html>

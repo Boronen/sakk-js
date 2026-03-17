@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="hu">
+<head>
+    <meta charset="UTF-8">
+    <title>Sakkplatform</title>
+    <link rel="stylesheet" href="index.css">
+</head>
+<body id="pageBackground">
+
+    <span class="logout"><button id="logoutBtn">Kijelentkezés</button></span>
+
+    <nav class="main-nav">
+        <ul>
+            <li class="left"><a href="leaderboard.html">Leaderboard</a></li>
+            <li class="center"><a href="matchmaking.html" class="nav-center">Játék</a></li>
+            <li class="right"><a href="profile.html">Profil</a></li>
+        </ul>
+    </nav>
+    <main class="content-wrapper">
+
+        <section id="authBlokk" class="auth-box">
+            <h1>Bejelentkezés / Regisztráció</h1>
+
+            <div class="auth-form">
+                <input id="felhasznaloInput" type="text" placeholder="Felhasználónév">
+                <input id="jelszoInput" type="password" placeholder="Jelszó">
+
+                <div class="auth-buttons">
+                    <button id="belepesGomb">Belépés</button>
+                    <button id="regisztracioGomb">Regisztráció</button>
+                </div>
+
+                <div id="authUzenet" class="auth-message"></div>
+            </div>
+        </section>
+
+        <section id="udvozloBlokk" class="welcome-box" style="display:none;">
+            <h1>Üdv, <span id="felhasznaloNevSzoveg"></span>!</h1>
+            <p>Válassz a fenti menüből: profil, játék vagy leaderboard.</p>
+        </section>
+
+    </main>
+
+    <script src="script/auth.js"></script>
+
+    <script>
+        document.getElementById("logoutBtn").onclick = () => {
+            fetch("../backend/logout.php")
+                .then(r => r.json())
+                .then(() => window.location.href = "index.html");
+        };
+    </script>
+
+</body>
+</html>

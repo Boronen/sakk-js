@@ -1,0 +1,154 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+
+.main-nav {
+    width: 100%;
+    background: #222;
+    padding: 10px 0;
+    border-bottom: 4px solid black;
+}
+
+.main-nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.main-nav a {
+    color: white;
+    text-decoration: none;
+    font-size: 20px;
+    padding: 8px 16px;
+    border-radius: 6px;
+    transition: 0.2s;
+}
+
+.main-nav a:hover {
+    background: rgba(255,255,255,0.2);
+}
+
+.nav-center {
+    background: red;
+    color: white !important;
+    font-weight: bold;
+    border: 2px solid black;
+}
+
+.logout {
+    position: fixed;
+    bottom: 10px;
+    right: 10px;
+    z-index: 9999;
+}
+
+#logoutBtn {
+    background: #ff4444;
+    color: white;
+    border: 2px solid black;
+    padding: 8px 16px;
+    border-radius: 6px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+#logoutBtn:hover {
+    background: #cc0000;
+}
+
+.content-wrapper {
+    max-width: 900px;
+    margin: 40px auto;
+    padding: 20px;
+    border: 6px solid black;
+    background: white;
+    text-align: center;
+}
+
+.leaderboard-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+.leaderboard-table th,
+.leaderboard-table td {
+    border: 3px solid black;
+    padding: 10px;
+    font-size: 18px;
+}
+
+.leaderboard-table th {
+    background: #ddd;
+    font-weight: bold;
+}
+
+.leaderboard-table tr:nth-child(even) {
+    background: #f7f7f7;
+}
+@media (prefers-color-scheme: dark) {
+
+    body {
+        background: #111;
+        color: #eee;
+    }
+
+    .main-nav {
+        background: #000;
+        border-bottom-color: #444;
+    }
+
+    .main-nav a {
+        color: #ddd;
+    }
+
+    .main-nav a:hover {
+        background: rgba(255,255,255,0.1);
+    }
+
+    .nav-center {
+        background: #660000;
+        border-color: #880000;
+        color: white !important;
+    }
+
+    #logoutBtn {
+        background: #aa0000;
+        border-color: #660000;
+    }
+
+    #logoutBtn:hover {
+        background: #880000;
+    }
+
+    .content-wrapper {
+        background: #1a1a1a;
+        border-color: #555;
+        color: #eee;
+    }
+
+    .leaderboard-table th {
+        background: #000;
+        color: #eee;
+        border-color: #444;
+    }
+
+    .leaderboard-table td {
+        background: #1a1a1a;
+        color: #ddd;
+        border-color: #444;
+    }
+
+    .leaderboard-table tr:nth-child(even) {
+        background: #222;
+    }
+
+    .leaderboard-table tr:hover {
+        background: #333;
+    }
+}
+

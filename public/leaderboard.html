@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="hu">
+<head>
+    <meta charset="UTF-8">
+    <title>Leaderboard</title>
+    <link rel="stylesheet" href="leaderboard.css">
+</head>
+<body id="pageBackground">
+
+    <span class="logout"><button id="logoutBtn">Kijelentkezés</button></span>
+
+    <nav class="main-nav">
+        <ul>
+            <li class="left"><a href="leaderboard.html">Leaderboard</a></li>
+            <li class="center"><a href="matchmaking.html" class="nav-center">Játék</a></li>
+            <li class="right"><a href="profile.html">Profil</a></li>
+        </ul>
+    </nav>
+
+    <main class="content-wrapper">
+        <h1>Leaderboard</h1>
+
+        <table id="leaderboardTabla" class="leaderboard-table">
+            <thead>
+                <tr>
+                    <th>Helyezés</th>
+                    <th>Felhasználó</th>
+                    <th>ELO</th>
+                    <th>Win</th>
+                    <th>Lose</th>
+                    <th>Winrate (%)</th>
+                </tr>
+            </thead>
+            <tbody></tbody>
+        </table>
+    </main>
+
+    <script src="script/leaderboard.js"></script>
+    <script src="script/auth.js"></script>
+
+    <script>
+        document.getElementById("logoutBtn").onclick = () => {
+            fetch("../backend/logout.php")
+                .then(r => r.json())
+                .then(() => window.location.href = "index.html");
+        };
+    </script>
+
+</body>
+</html>
