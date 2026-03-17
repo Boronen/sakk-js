@@ -167,3 +167,4 @@ Szóval korrekt a viszony.
 ---
 ## ui, 
 - ### a cookiekat full idiótán kezeltem [főleg azért mert nem tudtam eleinte hogy működnek] , szóval BÁRMIT csinálsz ajánlom inkább, hogy privát böngészőben próbáld, mert ez a része **is** káoszos a kódnak
+- ### illetve a szerver megy a [https://boston-saccharic-chi.ngrok-free.dev/sakk-js/public/] oldalon [ha éppen megy és nem kapcsoltam ki a gépet]
