@@ -13,16 +13,22 @@ const statAdatok = document.querySelector("#statAdatok");
 const profilNev = document.querySelector("#profilNev");
 const meccsTabla = document.querySelector("#meccsTabla tbody");
 const badgeLista = document.querySelector("#badgeLista");
+const bgOptions = document.querySelector(".bg-options");
 
 let aktualisProfilAdat = null; // ide eltesszük a profil adatot, hogy a puzzle is elérje
 
+const SECRET_BADGE_FILE = "secret_election_badge.gif";
+const SECRET_BACKGROUND_STYLE = "firev2.gif";
+
 function betoltProfil() {
-  fetch(`../backend/profile.php?user=${profilUser}`)
+  return fetch(`../backend/profile.php?user=${profilUser}`)
     .then((r) => r.json())
     .then((adat) => {
       if (adat.status !== "ok") return;
 
       aktualisProfilAdat = adat;
+      const isFireV2 = adat.background_style === SECRET_BACKGROUND_STYLE;
+      const hasCustomBg = adat.background_style !== "default" && !isFireV2;
 
       profilNev.textContent = adat.user;
 
@@ -35,35 +41,19 @@ function betoltProfil() {
 
       profilKep.src = `assets/pfp/${adat.pfp}`;
 
-      if (adat.header_bg)
-        headerBackground.style.backgroundImage = `url('assets/header_backgrounds/${adat.header_bg}')`;
+      headerBackground.style.backgroundImage = adat.header_bg
+        ? `url('assets/header_backgrounds/${adat.header_bg}')`
+        : "";
 
-      if (adat.background_style !== "default")
-        wrapper.style.backgroundImage = `url('assets/backgrounds/${adat.background_style}')`;
+      wrapper.style.backgroundImage = hasCustomBg
+        ? `url('assets/backgrounds/${adat.background_style}')`
+        : "";
 
-      badgeLista.innerHTML = "";
-      adat.badges.forEach((b) => {
-        const img = document.createElement("img");
-        img.src = `assets/badges/${b.file}`;
-        img.classList.add("badge");
-        img.classList.add(b.rarity);
-        img.title = `${b.name}\n${b.description}`;
-        badgeLista.appendChild(img);
-      });
+      wrapper.classList.toggle("firev2-active", isFireV2);
 
-      meccsTabla.innerHTML = "";
-      adat.matches.forEach((m) => {
-        const tr = document.createElement("tr");
-        tr.innerHTML = `
-          <td>${m.game_id}</td>
-          <td><a href="profile.html?user=${m.white}">${m.white}</a></td>
-          <td><a href="profile.html?user=${m.black}">${m.black}</a></td>
-          <td>${m.winner}</td>
-        `;
-        meccsTabla.appendChild(tr);
-      });
+      renderBadges(adat.badges);
+      renderMatchHistory(adat.matches);
 
-      // TITKOS PUZZLE FELAJÁNLÁSA
       if (adat.win >= 10 && isOwnProfile) {
         console.log(
           "%cTitkos kihívás elérhető a profilodon!",
@@ -74,25 +64,75 @@ function betoltProfil() {
           "color: #ff00ff; font-size: 14px;"
         );
       }
+
+      const hasSecretBadge = adat.badges.some((b) => b.file === SECRET_BADGE_FILE);
+      renderSecretBackgroundButton(hasSecretBadge);
+      setProfileAccessState();
     });
 }
 
-betoltProfil();
+function renderSecretBackgroundButton(hasSecretBadge) {
+  if (!bgOptions) return;
 
-window.addEventListener("load", () => {
+  const existing = document.getElementById("secretEffectBtn");
+  if (hasSecretBadge && isOwnProfile) {
+    if (!existing) {
+      const btn = document.createElement("button");
+      btn.className = "bg-btn";
+      btn.id = "secretEffectBtn";
+      btn.dataset.bg = SECRET_BACKGROUND_STYLE;
+      btn.textContent = "Fire V2";
+      bgOptions.appendChild(btn);
+    }
+  } else {
+    existing?.remove();
+  }
+}
+
+function renderBadges(badges) {
+  badgeLista.innerHTML = "";
+  badges.forEach((b) => {
+    const img = document.createElement("img");
+    img.src = `assets/badges/${b.file}`;
+    img.classList.add("badge");
+    img.classList.add(b.rarity);
+    img.title = `${b.name}\n${b.description}`;
+    badgeLista.appendChild(img);
+  });
+}
+
+function renderMatchHistory(matches) {
+  meccsTabla.innerHTML = "";
+  matches.forEach((m) => {
+    const tr = document.createElement("tr");
+    tr.innerHTML = `
+      <td>${m.game_id}</td>
+      <td><a href="profile.html?user=${m.white}">${m.white}</a></td>
+      <td><a href="profile.html?user=${m.black}">${m.black}</a></td>
+      <td>${m.winner}</td>
+    `;
+    meccsTabla.appendChild(tr);
+  });
+}
+
+function setProfileAccessState() {
+  const pfpUpload = document.querySelector("#pfpUpload");
+  const headerBgUpload = document.querySelector("#headerBgUpload");
+
   if (!isOwnProfile) {
-    const pfpUpload = document.querySelector("#pfpUpload");
-    const headerBgUpload = document.querySelector("#headerBgUpload");
-
     if (pfpUpload) pfpUpload.style.display = "none";
     if (headerBgUpload) headerBgUpload.style.display = "none";
-
-    document.querySelectorAll(".bg-btn").forEach((btn) => {
-      btn.disabled = true;
-      btn.style.opacity = "0.5";
-    });
+    if (bgOptions) bgOptions.classList.add("disabled");
+  } else {
+    if (pfpUpload) pfpUpload.style.display = "block";
+    if (headerBgUpload) headerBgUpload.style.display = "block";
+    if (bgOptions) bgOptions.classList.remove("disabled");
   }
-});
+}
+
+betoltProfil()
+  .then(() => setProfileAccessState())
+  .catch((err) => console.error("Profilload hiba:", err));
 
 const pfpUploadInput = document.querySelector("#pfpUpload");
 if (pfpUploadInput) {
@@ -126,13 +166,16 @@ if (headerBgUploadInput) {
   });
 }
 
-document.querySelectorAll(".bg-btn").forEach((btn) => {
-  btn.addEventListener("click", () => {
+if (bgOptions) {
+  bgOptions.addEventListener("click", (event) => {
+    const btn = event.target;
+    if (!btn.classList || !btn.classList.contains("bg-btn")) return;
     if (!isOwnProfile) return;
 
+    const style = btn.dataset.bg;
     const form = new FormData();
     form.append("user", profilUser);
-    form.append("style", btn.dataset.bg);
+    form.append("style", style);
 
     fetch("../backend/save_background_style.php", {
       method: "POST",
@@ -141,7 +184,7 @@ document.querySelectorAll(".bg-btn").forEach((btn) => {
       .then((r) => r.json())
       .then(() => betoltProfil());
   });
-});
+}
 
 // ===== TITKOS KONZOLOS REJTVÉNY =====
 

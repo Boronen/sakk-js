@@ -24,9 +24,9 @@
     },
     "boronen": {
         "password": "$2y$10$gIsAIVomG\/G.qHM9Y5h0Vuuus75o3bGkpaJ\/VTjU2c\/aLgyBP0FYq",
-        "elo": 1190,
+        "elo": 1180,
         "win": 10,
-        "lose": 4,
+        "lose": 5,
         "pfp": "boronen.png",
         "header_bg": "boronen_header.png",
         "background_style": "fire.gif",
@@ -45,14 +45,15 @@
             "d0bac664",
             "b203cad7",
             "456e0b1d",
-            "6d920b46"
+            "6d920b46",
+            "ee4e8491"
         ],
         "registered_at": "2026-03-16"
     },
     "husshuss": {
         "password": "$2y$10$dsfcJ.dGAVEJrH6rQJFE2e5CT2BUT0K6FJL\/pXK6ghmb0Zj7MX0PC",
         "elo": 1190,
-        "win": 0,
+        "win": 16,
         "lose": 1,
         "pfp": "husshuss.png",
         "header_bg": "husshuss_header.png",
@@ -60,7 +61,9 @@
         "badges": [
             "top100.png",
             "beta_user.png",
-            "charles-leclerc-bruh.gif"
+            "charles-leclerc-bruh.gif",
+            "secret_election_badge.gif",
+            "medveember.gif"
         ],
         "matches": [
             "aa50da5d"
@@ -81,5 +84,77 @@
         ],
         "matches": [],
         "registered_at": "2026-03-17"
+    },
+    "vee": {
+        "password": "$2y$10$nUP2Gvl81m67sYxcHQYt0uJZwIfUDUaSNlTvGuEXblBXtBv7OaNKa",
+        "elo": 1210,
+        "win": 1,
+        "lose": 0,
+        "pfp": "default_pfp.png",
+        "header_bg": null,
+        "background_style": "default",
+        "badges": [
+            "top100.png",
+            "beta_user.png",
+            "first_win.gif"
+        ],
+        "matches": [
+            "ee4e8491"
+        ],
+        "registered_at": "2026-03-17"
+    },
+    "xd": {
+        "password": "$2y$10$U6w.ZVNmVANa6kgIHuiaE.Wr3zQFNjXzLykRQVN6YnnIJe5S9tmQO",
+        "elo": 1200,
+        "win": 1,
+        "lose": 1,
+        "pfp": "xd.png",
+        "header_bg": null,
+        "background_style": "default",
+        "badges": [
+            "top100.png",
+            "beta_user.png",
+            "first_win.gif"
+        ],
+        "matches": [
+            "0ceffc72",
+            "6fc2b3f7"
+        ],
+        "registered_at": "2026-03-18"
+    },
+    "milo": {
+        "password": "$2y$10$jw\/htSc0JLa8bAx0\/LkxlO\/kC1mmClJy5UGJLJ75aCnQ5sbdu2lVi",
+        "elo": 1190,
+        "win": 0,
+        "lose": 1,
+        "pfp": "milo.png",
+        "header_bg": "milo_header.png",
+        "background_style": "fire.gif",
+        "badges": [
+            "top100.png",
+            "beta_user.png"
+        ],
+        "matches": [
+            "0ceffc72"
+        ],
+        "registered_at": "2026-03-18"
+    },
+    "kabd be": {
+        "password": "$2y$10$RWqei0bKc6H71sBR8dc1MOtrTtBTjO\/aXESqo3vCuk521a3x1q3oS",
+        "elo": 1210,
+        "win": 1,
+        "lose": 0,
+        "pfp": "default_pfp.png",
+        "header_bg": null,
+        "background_style": "default",
+        "badges": [
+            "top100.png",
+            "beta_user.png",
+            "first_win.gif"
+        ],
+        "matches": [
+            "6fc2b3f7"
+        ],
+        "registered_at": "2026-03-18"
     }
 }

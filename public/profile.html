@@ -73,7 +73,7 @@
       document.getElementById("logoutBtn").onclick = () => {
         fetch("../backend/logout.php")
           .then((r) => r.json())
-          .then(() => (window.location.href = "login.html"));
+          .then(() => (window.location.href = "index.html"));
       };
     </script>
   </body>

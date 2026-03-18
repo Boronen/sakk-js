@@ -34,12 +34,21 @@
         "rarity": "legendary",
         "description": "A híres 'HUH?' macska badge. Csak speciális eseményeken érhető el, kizárólag admin adhatja."
     },
+    "charles-leclerc-bruh.gif": {
+        "name": "Banana leclerc",
+        "rarity": "legendary",
+        "description": "Must be the water."
+    },
     "secret_election_badge.gif": {
-    "name": "A Választott",
-    "rarity": "ultra-rare",
-    "description": "Egy titkos rejtvény megoldásával szerezted meg. Csak kevesek tudják, hogy létezik.",
-    "admin_only": false,
-    "hidden": true
-}
-
+        "name": "A Választott",
+        "rarity": "ultra-rare",
+        "description": "Egy titkos rejtvény megoldásával szerezted meg. Csak kevesek tudják, hogy létezik.",
+        "admin_only": false,
+        "hidden": true
+    },
+    "medveember.gif": {
+        "name": "medveember",
+        "rarity": "rare",
+        "description": "87"
+    }
 }

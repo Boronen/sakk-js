@@ -4,7 +4,7 @@ header('Content-Type: application/json; charset=utf-8');
 $user = $_POST['user'] ?? null;
 $style = $_POST['style'] ?? null;
 
-$allowed = ["default", "neon.gif", "fire.gif", "placeholder.gif"];
+$allowed = ["default", "neon.gif", "fire.gif", "placeholder.gif", "firev2.gif"];
 
 if (!$user || !in_array($style, $allowed)) {
     echo json_encode(["status" => "error", "message" => "Invalid data"]);
